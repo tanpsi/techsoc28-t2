@@ -25,3 +25,4 @@ grade-key followed is:
 NOTE: No change is saved implicitly, user must choose save  option  to  save  to
 file.  But the program does prompt for confirmation to save/discard when a  exit
 is issued with unsaved DB.
+NOTE2: Data is stored in json format in a file named db.json in the code directory.
