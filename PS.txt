@@ -1,0 +1,32 @@
+			  Task 2 (Intermediate Level):
+
+Concepts used: file management, functions, escape sequences, strings
+
+Implement a program that mimics a student academic roll record system, allowing
+students to register, log in, and view their grades. Admins should be able to
+manage and enter grades. The system should also calculate and display the
+Semester Performance Index (SPI) and Cumulative Performance Index (CPI) for each
+student.
+
+- Create a function to register users as either students or admins using a
+  unique user id and password and allow them to login based on successful
+  credentials.  Ensure role-based access control: only admins can enter and
+  manage grades, while students can only view their grades and performance
+  indices
+
+- Allow Admins to input and update student grades for courses each semester in
+  their unique student id. Assume each course is of 4 credits and store the
+  grades (AP (10), AA (10), AB (9)….) for each course by semester. The number of
+  courses per semester is decided by the admin at the time of grading.
+
+- Store the details of all registered users (students and admins) and their
+  respective grades.
+
+- Implement a function to calculate and return the SPI for a specified semester
+  and CPI considering all the completed semesters.
+
+- Implement a function to display the academic details (Student ID, grades by
+  course, SPI, and CPI) for all semesters.
+
+Note: No. of courses may vary each semester and for grading system refer IITI
+Curriculum
